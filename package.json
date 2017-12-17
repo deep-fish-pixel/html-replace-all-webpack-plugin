@@ -1,0 +1,30 @@
+{
+  "name": "html-replace-all-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack plugin for replace HTML contents in all operates, such as string、regExp、object",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maweimaweima/html-replace-all-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "replace",
+    "all"
+  ],
+  "author": "mawei",
+  "license": "ISC",
+  "dependencies": {
+    "invariant": "2.2.2",
+    "assign-deep-all": "^1.1.8"
+  },,
+  "bugs": {
+    "url": "https://github.com/maweimaweima/html-replace-all-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/maweimaweima/html-replace-all-webpack-plugin#readme"
+}
