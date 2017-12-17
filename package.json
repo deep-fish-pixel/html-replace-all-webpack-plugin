@@ -1,6 +1,6 @@
 {
   "name": "html-replace-all-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack plugin for replace HTML contents in all operates, such as string、regExp、object",
   "main": "index.js",
   "scripts": {
