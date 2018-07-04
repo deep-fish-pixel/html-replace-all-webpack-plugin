@@ -107,7 +107,7 @@ HtmlReplaceWebpackPlugin.prototype.handle = function (html) {
 
 HtmlReplaceWebpackPlugin.prototype.apply = function (compiler) {
   compiler.plugin('compilation', (compilation) => {
-    compilation.plugin('html-webpack-plugin-before-html-processing', (htmlPluginData, callback) => {
+    compilation.plugin('html-webpack-plugin-after-html-processing', (htmlPluginData, callback) => {
       htmlPluginData.html = this.handle(htmlPluginData.html);
       callback(null, htmlPluginData);
     });
